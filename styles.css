@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    background-color:#f8f4db;
+    color: #1e1c1c;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    /* font: normal 16px 'Roboto', sans-serif; */
+
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+}
+
+/* a {
+    color: #1e1c1c;
+    text-decoration: solid;
+} */
+
+/* a:hover {
+    text-decoration: underline;
+} */
+
+/* a:active {
+    color:aqua;
+} */
+
+/* a:visited {
+    color:darkred;
+} */
+
+.avatar {
+    width: 250px;
+    border-radius: 25%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+
+.info p {
+    color: rgb(2, 68, 38);
+     margin: 0;
+     font-style: italic;
+     font-weight: bold;
+     /* text-decoration: none;
+     text-transform: uppercase;
+     word-spacing: 15px; */
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+/* Box model */
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* .URL {
+    background: greenyellow;
+    padding: 15px;
+    padding: 15px 40px;
+    padding: 15px 40px 35px 20px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    margin: 5px;
+
+    border: 5px solid coral;
+    border-bottom-style: dotted;
+    border-top-width: 20px;
+    border-right-color: blueviolet;
+} */
+
+/* .box-model > div {
+    float: left;
+    background: greenyellow;
+    height: 200px;
+    border: 4px solid rebeccapurple;
+    width: 25%;
+    box-sizing: border-box;
+} */
+
+.bg-yellow {
+    background: rgba(236, 234, 121, 0.984);
+}
+
+.bg-green {
+    background: rgb(175, 209, 108);
+}
+
+.bg-red {
+    background: rgb(235, 196, 209);
+}
+
+.bg-orange {
+    background: rgb(242, 121, 77);
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #0d4bc6;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+    color: bisque;
+}
+
+.table th {
+    color: rgb(92, 4, 4);
+}
+
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: rgb(92, 4, 4);
+}
+
+/* .table tr:nth-child(even) {
+    background: firebrick;
+} */
+
+.link-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(102, 7, 7);
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: rgb(14, 234, 139);
+    padding: 15px 0 10px;
+    /* outline: none; */
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0px;
+}
+
+.btn input {
+    background: rgb(5, 122, 85);
+    color: rgb(240, 187, 168);
+    padding: 15px 20px;
+    font-family: inherit;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Position */
+
+.position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    /* bottom: 150px; */
+    /* left: 50px; */
+    width: 100%;
+    height: 50px;
+    background: rgb(172, 19, 42);
+}
+
+.box h1 {
+    text-align: center;
+    margin: 5px;
+    color: aquamarine;
+}
